@@ -50,7 +50,8 @@
 
     <script src="midi.js"></script>
     <script>
-        window.onload = () => MIDIjs.play('./breakfast.mid');
+        MIDIjs.initAll();
+        MIDIjs.play('./breakfast.mid');
     </script>
 </body>
 
